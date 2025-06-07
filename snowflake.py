@@ -3,6 +3,7 @@
 import time
 import threading
 
+#TODO: Implement for distributed systems
 class SnowflakeGenerator:
     def __init__(self, machine_id: int):
         # Config
